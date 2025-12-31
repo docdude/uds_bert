@@ -1,0 +1,36 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Data files (if they contain PHI/sensitive data)
+# Uncomment these if your data contains protected health information:
+# csv_data/
+# pdf_data/
+# audit_data/
+*.csv
+*.pdf
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Output
+Cell*.csv
